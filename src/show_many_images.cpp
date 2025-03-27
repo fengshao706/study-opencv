@@ -48,6 +48,8 @@ int main() {
     std::vector<cv::Mat>images;
     images.push_back(cv::imread("../images/read/brother.jpg"));
     images.push_back(cv::imread("../images/read/fish.jpg"));
+    images.push_back(cv::imread("../images/read/mother.jpg"));
+    images.push_back(cv::imread("../images/read/test.jpg"));
     showManyImages(images);
     cv::waitKey(0);
 }
